@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup Label="Globals">
+    <SccProjectName></SccProjectName>
+    <SccProvider></SccProvider>
+    <SccAuxPath></SccAuxPath>
+    <SccLocalPath></SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net472</TargetFramework>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.fs" />
+    <Compile Include="Seq.fs" />
+    <Compile Include="Map.fs" />
+    <Compile Include="Lazy.fs" />
+    <Compile Include="Array.fs" />
+    <Compile Include="Hex.fs" />
+    <Compile Include="Queue.fs" />
+    <Compile Include="Graph.fs" />
+    <Compile Include="Minimax.fs" />
+    <Compile Include="Board.fs" />
+    <Compile Include="Game.fs" />
+    <Compile Include="Strategy.fs" />
+    <Compile Include="Play.fs" />
+  </ItemGroup>
+</Project>

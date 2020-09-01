@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{89CD9F8B-EEF9-4DE6-BAB7-6ED315B0F607}"
+	ProjectSection(SolutionItems) = preProject
+		Insects.design = Insects.design
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayHiveGame", "WpfClient\PlayHiveGame.csproj", "{537742CA-2CF6-449B-8AEC-799B112328FE}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Logic", "Logic\Logic.fsproj", "{6965C63C-F585-4FAA-9CB9-9A98190B2059}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "LogicPerformance", "LogicPerformance\LogicPerformance.fsproj", "{AD92A9D7-2E1D-4D62-99D7-F30268EF1696}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsEditor", "TestsEditor\TestsEditor.csproj", "{06C2A823-C716-4D8B-B1CE-354A051883FB}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Tests", "Tests\Tests.fsproj", "{64BA0DB5-A37F-4721-9A25-62A098312A9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{537742CA-2CF6-449B-8AEC-799B112328FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{537742CA-2CF6-449B-8AEC-799B112328FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{537742CA-2CF6-449B-8AEC-799B112328FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{537742CA-2CF6-449B-8AEC-799B112328FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6965C63C-F585-4FAA-9CB9-9A98190B2059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6965C63C-F585-4FAA-9CB9-9A98190B2059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6965C63C-F585-4FAA-9CB9-9A98190B2059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6965C63C-F585-4FAA-9CB9-9A98190B2059}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD92A9D7-2E1D-4D62-99D7-F30268EF1696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD92A9D7-2E1D-4D62-99D7-F30268EF1696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD92A9D7-2E1D-4D62-99D7-F30268EF1696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD92A9D7-2E1D-4D62-99D7-F30268EF1696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06C2A823-C716-4D8B-B1CE-354A051883FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C2A823-C716-4D8B-B1CE-354A051883FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C2A823-C716-4D8B-B1CE-354A051883FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06C2A823-C716-4D8B-B1CE-354A051883FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64BA0DB5-A37F-4721-9A25-62A098312A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64BA0DB5-A37F-4721-9A25-62A098312A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64BA0DB5-A37F-4721-9A25-62A098312A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64BA0DB5-A37F-4721-9A25-62A098312A9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F2A5A8E-815C-4FCB-A1EE-C33C4C52BA37}
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal

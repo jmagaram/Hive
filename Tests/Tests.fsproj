@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName></SccProjectName>
+    <SccProvider></SccProvider>
+    <SccAuxPath></SccAuxPath>
+    <SccLocalPath></SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+    <GenerateProgramFile>false</GenerateProgramFile>
+    <AssemblyName>Tests</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Database.fs" />
+    <Compile Include="Utilities.fs" />
+    <Compile Include="Seq.fs" />
+    <Compile Include="Map.fs" />
+    <Compile Include="Array.fs" />
+    <Compile Include="Hex.fs" />
+    <Compile Include="Queue.fs" />
+    <Compile Include="Graph.fs" />
+    <Compile Include="Minimax.fs" />
+    <Compile Include="Board.fs" />
+    <Compile Include="Game.fs" />
+    <Compile Include="Play.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="TestData.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FsPickler" Version="5.3.2" />
+    <PackageReference Include="FsPickler.Json" Version="5.3.2" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.1.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.1.0" />
+    <PackageReference Include="coverlet.collector" Version="1.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Logic\Logic.fsproj" />
+  </ItemGroup>
+
+</Project>
