@@ -1,4 +1,4 @@
-# Play Hive (coded in 2013)
+# Play Hive
 
 [Hive](https://www.boardgamegeek.com/boardgame/2655/hive) is a great abstract strategy game, kind of like chess but with some bug-themed pieces. I wanted to learn about functional programming in F# and decided to create a Windows program that would allow me to play against a computer opponent.
 
@@ -15,3 +15,5 @@ The solution has several components:
 *Tests* - Some unit tests
 
 *TestsEditor* - A UI tool for "drawing" tests. This was invaluable for ensuring that each piece moves correctly. I could draw a potential board, indicate where the "ant" was, and specify all the legal places it can go. 
+
+I built this in 2013 but recently updated it to get it to compile with Visual Studio 2019.
